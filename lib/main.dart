@@ -5,7 +5,7 @@ import 'package:hive_flutter/hive_flutter.dart';
 import 'package:financia/models/category/category_model.dart';
 import 'package:financia/models/transaction/transaction_model.dart';
 import 'package:financia/screens/home/screen_home.dart';
-
+import 'package:path_provider/path_provider.dart';
 Future<void> main () async {
   WidgetsFlutterBinding.ensureInitialized();
   await Hive.initFlutter();
